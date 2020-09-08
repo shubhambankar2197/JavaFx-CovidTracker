@@ -1,0 +1,61 @@
+.chart-content {
+    -fx-padding : 10px;
+}
+
+.chart-title {
+    -fx-text-fill: red;
+}
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+
+
+.default-color0.chart-series-line { -fx-stroke: "indigo";}
+.default-color1.chart-series-line { -fx-stroke: "red";}
+
+.default-color0.chart-line-symbol { -fx-background-color: "indigo",white; }
+.default-color1.chart-line-symbol { -fx-background-color: "red",white; }
+
+.default-color0.chart-series-area-fill { -fx-fill: #ffa07aaa; }
+.default-color1.chart-series-area-fill { -fx-fill: "red"; }
+
+#infectedData:hover {
+    -fx-cursor : hand;
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+
+}
+
+#deathData:hover {
+    -fx-cursor : hand;
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+
+}
+
+
+
+#recoveredData:hover {
+    -fx-cursor : hand;
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+
+}
+
+
+.tpDeath {
+-fx-background-radius: 7 7 7 7;
+-fx-background-color: linear-gradient(red, orangered);
+}
+
+.tpInfected {
+-fx-background-radius: 7 7 7 7;
+-fx-background-color: linear-gradient(blue, purple);
+}
+.tpRecovered {
+-fx-background-radius: 7 7 7 7;
+-fx-background-color: linear-gradient(green, olive);
+}
